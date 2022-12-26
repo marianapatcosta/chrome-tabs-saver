@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #0f0f14;
+  --secondary-color: #282838;
+  --tertiary-color: #b33030;
+  --font-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  width: max-content;
+  height: max-content;
+}
+
+body {
+  font-size: 0.85rem;
+  line-height: 0.85rem;
+  width: max-content;
+  height: max-content;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+.container {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  width: 20rem;
+}
+
+#save-tabs-group {
+  align-items: stretch;
+  display: flex;
+  gap: 0.3rem;
+}
+
+input,
+select {
+  font: inherit;
+  color: inherit;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--secondary-color);
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  font-size: 1.25rem;
+  color: inherit;
+  background-color: var(--tertiary-color);
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 1.8rem;
+  height: 1.8rem;
+  transition: opacity 0.25s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.tab-management {
+  display: flex;
+  gap: 0.3rem;
+  margin: 1rem 0;
+}
+
+.tab-management > select,
+.tab-management > select > option {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.tabs-groups  > h1 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.tabs-groups > ul {
+  flex: 1;
+  max-height: 8rem;
+  overflow: auto;
+}
+
+.tabs-groups > ul::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.tabs-groups > ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.3rem var(--color-secondary);
+  border-radius: 0.5rem;
+}
+
+.tabs-groups > ul::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background: var(--tertiary-color);
+}
+
+.tabs-groups > ul > li {
+  padding: 0.25rem 0;
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+  list-style-type: none;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.tabs-groups > ul > li:hover {
+  background-color: var(--tertiary-color);
+}
+
+.tabs-groups > ul > li > button {
+  background-color: initial;
+  font-size: inherit;
+  height: max-content;
+  padding: 0;
+}
+
+.tabs-groups > ul > li > button:first-child {
+  height: 1.25rem;
+  width: 100%;
+  display: block;
+  text-align: initial;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.tabs-groups > ul > li > button:nth-child(2) {
+  font-size: 1rem;
+  justify-self: flex-end;
+  align-self: center;
+  margin-left: auto;
+}

@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chrome tabs Saver</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="save-tabs-group">
+        <input
+          id="group-name-input"
+          placeholder="Enter name to save the opened tab!"
+          autocomplete="off"
+        />
+        <button
+          id="save-button"
+          aria-label="click to save the opened tabs in this window"
+          title="save this windows's tabs"
+        >
+          <i class="fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <div class="tab-management">
+        <select id="add-tab"></select>
+        <select id="remove-tab"></select>
+      </div>
+      <div class="tabs-groups">
+        <h1 id="tabs-groups-heading">Saved tabs groups</h1>
+        <ul id="tabs-groups-list"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
