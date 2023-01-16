@@ -2,7 +2,7 @@
 
 Simple chrome extension that allows to save groups of tabs and then reopen them later. Also allows to add/remove the current opened tab from the saved tabs groups.
 
-![image](https://user-images.githubusercontent.com/43031902/209535806-449376a4-8e98-4ae2-87dd-120e25f513ba.png)
+![image](https://user-images.githubusercontent.com/43031902/212571160-023bc409-3ed3-4953-9fa6-4ebc76a1eec8.png)
 
 
 ## How to use
