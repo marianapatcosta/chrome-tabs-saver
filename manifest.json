@@ -1,7 +1,7 @@
 {
   "name": "Chrome Tabs Saver",
   "version": "1.0.0",
-  "description": "Saves groups of tabs and allows reopen them later",
+  "description": "Chrome Tabs Saver saves groups of tabs and allows reopen, edit and delete them later",
   "manifest_version": 3,
   "author": "Mariana Costa",
   "action": {
@@ -10,7 +10,9 @@
     "default_title": "Chrome Tabs Saver"
   },
   "icons": {
-    "32": "tabs-saver.png"
+    "16": "tabs-saver.png",
+    "48": "tabs-saver.png",
+    "128": "tabs-saver.png"
   },
   "permissions": ["tabs", "storage"]
 }
