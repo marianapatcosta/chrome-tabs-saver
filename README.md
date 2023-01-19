@@ -5,6 +5,8 @@ Chrome Tabs Saver is a simple chrome extension that allows to save all the curre
 ![image](https://user-images.githubusercontent.com/43031902/212571160-023bc409-3ed3-4953-9fa6-4ebc76a1eec8.png)
 
 
+Download it from [Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-tabs-saver/kkpeppcnpfnpjemokcejjaliemaddcoc?hl=pt-PT&authuser=0).
+
 ## How to use
 - Download project folder
 - Open a Chrome window
